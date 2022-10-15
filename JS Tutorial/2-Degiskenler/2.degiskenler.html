@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+
+
+
+    <script>
+        var marka;
+        consolo.log(marka);
+        marka = "Opel"; /*marka = prompt("marka giriniz"); */
+        console.log(marka);
+
+        marka = 'Mazda';
+        console.log(marka);
+
+        var model = 'Astra';
+        console.log(marka+" "+model);
+
+        var maxhiz = 240;
+        var yakitdeposu = 52;
+        console.log(yakitdeposu * 5.60);
+
+        var otomatik = true;
+        console.log(otomatik);
+
+        console.log(marka+" "+ model + " " + yakitdeposu + "litre yakıt deposuna sahip ve mask "+
+        maxhiz + "km hiz yapmaktadir" + "peki araç otomatik midir  ? " + otomatik);
+
+
+        var x = 3;
+        var y;
+        document.write(typeof x);
+        x = x.toString();//Stringe çevirir.
+        // x = (456+10).toString(); 
+        document.write(typeof x);
+
+        var z = "3.14";
+        document.write(typeof z);
+        z = Number(z);//Number'a çevirir.
+        document.write(typeof z);
+        z=parseInt(z);//integer'a çevirir!
+        document.write(z);
+
+        var a = 123123.123123;
+        x = x.toFixed(3);//Virgülden sonra kaç hane göstermek istersek!
+
+
+        /*
+        var x = 345e-5; virgülden sonra 5 basamak.
+        document.write(x);
+        var y = 345e5; 10 üzeri 5 ile çarpar.
+        document.write(y);
+        */
+
+
+        /*
+
+        const sayi = 10;
+        sayi = 15;
+        const degerler degistirilemez sayi=15; dedigimizde hata alacagiz!
+        
+        */
+
+    </script>
+</body>
+</html>
